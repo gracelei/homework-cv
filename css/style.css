@@ -1,0 +1,158 @@
+.clear{
+    clear: both;
+}
+@font-face {
+font-family: 'Isocpeur';
+src: url('Isocpeur.eot');
+src:
+url('Isocpeur.eot?#font-spider') format('embedded-opentype'),
+url('Isocpeur.woff') format('woff'),
+url('Isocpeur.ttf') format('truetype'),
+url('Isocpeur.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+body{
+    font-size: 67.5%;
+    background-color: ;
+    width: 90%;
+    margin: auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+p{
+    font-size: 1.6em;
+    font-weight: 100;
+}
+h2{
+    text-indent: 1em;
+    font-size: 2em;
+}
+h1{
+    text-indent: 1.5em;
+    font-size: 2.5em;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#top{
+    width: 100%;
+    color: #e8ecef;
+    background: url(images/head-bg.gif) no-repeat;
+    background-size:100%;
+}
+#title p{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Isocpeur';
+    margin: 0px;
+    padding: 1.7%
+}
+#name p{
+    font-size: 9em;
+    font-family: 'Isocpeur';
+    text-align: center;
+    margin: 0px;
+}
+#intro{
+    padding: 2em;
+    font-family: Mongolian Baiti;
+}
+#intro p{
+    display: block;
+    font-size: 1.em;
+    width: 64%;
+    margin-top: 0px;
+    margin: auto;
+}
+#left{
+    float: left;
+    width: 30%;
+    background-color: #e8ecef;
+}
+#birth{
+    background: url(images/birth.gif) no-repeat;
+    background-size: 40px 40px;
+    margin-left: 10%;
+    height: 40px;
+    line-height: 50px;
+    padding-left: 15%;
+}
+#hometown{
+    background: url(images/city.gif) no-repeat;
+    background-size: 40px 40px;
+    margin-left: 10%;
+    margin-top:10%; 
+    padding-left: 15%
+}
+#school{
+    background: url(images/school.gif) no-repeat;
+    background-size: 40px 40px;
+    margin-left: 10%;
+    margin-top:10%;
+    padding-left: 15%;
+}
+#contactme{
+    margin-top: 20%;
+    text-align: right;
+}
+#contactme li{
+    list-style: none;
+    padding-right: 15%;
+}
+#tel{
+    background: url(images/tel.gif) no-repeat right top;
+    background-size: 40px 40px;
+    margin-right: 10%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10%;
+}
+#mail{
+    background: url(images/mail.gif) no-repeat right top;
+    background-size: 40px 40px;
+    margin-right: 10%;
+    margin-top: 10%;
+    height: 40px;
+    line-height: 40px;
+}
+#address{
+    background: url(images/position.gif) no-repeat right top;
+    background-size: 40px 40px;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: left;
+}
+#address p{
+    padding-top: 5%;
+}
+#interest img{
+    height: 45px;
+    width: 40px;
+}
+#interest li{
+    display: block;
+    float: left;
+    list-style: none;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+#middle{
+    float: left;
+    width: 50%;
+    background-color: #dae3ea;
+}
+#languages{
+    
+}
+#right{
+    float: left;
+    width: 20%;
+    background-color: #dae3ea;
+}
